@@ -2,13 +2,13 @@ import firebase from "firebase/app";
 import "firebase/auth";
 import "firebase/firestore";
 const config = {
-  apiKey: "AIzaSyAIRa62G4JRdMq37Jby42Tk2W-lFQngoQU",
-  authDomain: "crwn-db-256f4.firebaseapp.com",
-  projectId: "crwn-db-256f4",
-  storageBucket: "crwn-db-256f4.appspot.com",
-  messagingSenderId: "876991040196",
-  appId: "1:876991040196:web:63741481df6ff343501791",
-  measurementId: "G-G1Q9QD6NFY",
+  apiKey: "AIzaSyAF3U8kgA8lO6qVx65DNQxJj4ploJiPRnU",
+  authDomain: "fir-auth-22a60.firebaseapp.com",
+  projectId: "fir-auth-22a60",
+  storageBucket: "fir-auth-22a60.appspot.com",
+  messagingSenderId: "127077165160",
+  appId: "1:127077165160:web:d7dbb196dd7749ad61f3dd",
+  measurementId: "G-2WYJTBYB4G"
 };
 
 firebase.initializeApp(config);
