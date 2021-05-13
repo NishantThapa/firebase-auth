@@ -10,7 +10,7 @@ const Routes = (props) => {
       {routeConfig.map((route, i) => (
         <PrivateRoute key={route} {...route} />
       ))}
-      <Route exact path="/login" component={Login} />
+      <Route path="/login" component={Login} />
     </Switch>
   );
 };

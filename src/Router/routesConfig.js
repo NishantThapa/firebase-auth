@@ -2,7 +2,7 @@ import Home from "../Component/home";
 
 const routesConfig = [
   {
-    path: "/home",
+    path: "/",
     component: Home,
     exact: true,
   },
